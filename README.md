@@ -3,6 +3,8 @@ angular-calvin-hobbes
 
 Calvin and Hobbes comic stripe fetcher.
 
+![Calvin & Hobbes](http://cdn.denofgeek.us/sites/denofgeekus/files/calvin-and-hobbes.jpg 'Calvin & Hobbes')
+
 How to use?
 ==========
 
