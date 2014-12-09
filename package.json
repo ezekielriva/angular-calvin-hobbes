@@ -25,7 +25,7 @@
     "mocha": "^2.0.1"
   },
   "scripts": {
-    "test": "npm test"
+    "test": "make all"
   },
   "repository": {
     "type": "git",
