@@ -3,6 +3,7 @@ angular-calvin-hobbes
 [![Build Status](https://travis-ci.org/ezekielriva/angular-calvin-hobbes.svg)](https://travis-ci.org/ezekielriva/angular-calvin-hobbes)
 [![Code Climate](https://codeclimate.com/github/ezekielriva/angular-calvin-hobbes/badges/gpa.svg)](https://codeclimate.com/github/ezekielriva/angular-calvin-hobbes)
 [![Test Coverage](https://codeclimate.com/github/ezekielriva/angular-calvin-hobbes/badges/coverage.svg)](https://codeclimate.com/github/ezekielriva/angular-calvin-hobbes)
+[![Get it in Bower](http://benschwarz.github.io/bower-badges/badge@2x.png)]
 
 Calvin and Hobbes comic stripe fetcher.
 
