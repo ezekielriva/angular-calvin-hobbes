@@ -1,0 +1,45 @@
+{
+  "name": "angular-calvin-hobbes",
+  "version": "0.0.0",
+  "description": "Calvin and Hobbes comic fetcher",
+  "main": " ",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "gulp": "^3.8.10"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-karma": "0.0.4",
+    "gulp-mocha": "^2.0.0",
+    "karma": "^0.12.28",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-coverage": "^0.2.7",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-sinon-chai": "^0.2.0",
+    "mocha": "^2.0.1"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezekielriva/angular-calvin-hobbes.git"
+  },
+  "keywords": [
+    "calvin",
+    "hobbes",
+    "comic",
+    "angular",
+    "fun"
+  ],
+  "author": "Ezekiel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezekielriva/angular-calvin-hobbes/issues"
+  },
+  "homepage": "https://github.com/ezekielriva/angular-calvin-hobbes"
+}

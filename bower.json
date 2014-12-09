@@ -1,0 +1,28 @@
+{
+  "name": "angular-calvin-hobbes",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ezekielriva/angular-calvin-hobbes",
+  "authors": [
+    "Ezekiel <ezerivadeneiral@gmail.com>"
+  ],
+  "description": "Calvin and Hobbes comic fetcher",
+  "main": "src/angular-calvin-hobbes.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "calvin",
+    "hobbes",
+    "angular",
+    "comic",
+    "fun"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
