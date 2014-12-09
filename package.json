@@ -25,7 +25,7 @@
     "mocha": "^2.0.1"
   },
   "scripts": {
-    "test": "make all"
+    "test": "bower i && make all"
   },
   "repository": {
     "type": "git",
