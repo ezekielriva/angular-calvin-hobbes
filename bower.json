@@ -5,8 +5,8 @@
   "authors": [
     "Ezekiel <ezerivadeneiral@gmail.com>"
   ],
-  "description": "Calvin and Hobbes comic fetcher",
-  "main": "src/angular-calvin-hobbes.js",
+  "description": "Calvin and Hobbes comic fetcher for Angular",
+  "main": "dist/angular-calvin-hobbes.min.js",
   "moduleType": [
     "globals"
   ],
@@ -15,7 +15,8 @@
     "hobbes",
     "angular",
     "comic",
-    "fun"
+    "fun",
+    "factory"
   ],
   "license": "MIT",
   "ignore": [
@@ -24,5 +25,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "angular": "~1.3.6",
+    "angular-mocks": "~1.3.6"
+  }
 }

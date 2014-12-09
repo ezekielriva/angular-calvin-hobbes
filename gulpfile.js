@@ -2,8 +2,14 @@
 
 var gulp    = require('gulp'),
     jshint  = require('gulp-jshint'),
-    karma   = require('gulp-karma')
+    karma   = require('gulp-karma'),
+    uglify  = require('gulp-uglify'),
+    concat  = require('gulp-concat')
 ;
+
+var paths = {
+  dist: './dist/'
+};
 
 var files = {
   gulpfile: './gulpfile.js',
@@ -30,5 +36,12 @@ gulp.task('lint', function () {
 gulp.task('test', function () {
   var testFiles = files.angular.concat([files.src, files.test]);
   return gulp.src( testFiles )
-             .pipe( karma({ configFile: files.karmaConfig, action: 'watch' }) );
+             .pipe( karma({ configFile: files.karmaConfig, action: 'run' }) );
+});
+
+gulp.task('compile', ['lint', 'test'], function () {
+  return gulp.src(files.src)
+             .pipe( concat('angular-calvin-hobbes.min.js') )
+             .pipe( uglify() )
+             .pipe( gulp.dest( paths.dist ) );
 });
